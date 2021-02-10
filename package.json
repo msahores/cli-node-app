@@ -1,0 +1,17 @@
+{
+  "name": "node-cli-app",
+  "version": "1.0.0",
+  "description": "A simple CLI app built with Nodejs",
+  "main": "bin/index.js",
+  "author": "Manu Shs <manuel@sahores.com>",
+  "license": "MIT",
+  "bin": {
+    "hello": "./bin/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "boxen": "4.0",
+    "chalk": "2.4",
+    "yargs": "^13.2.4"
+  }
+}
